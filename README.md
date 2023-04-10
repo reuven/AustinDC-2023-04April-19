@@ -3,9 +3,13 @@
 ## Austin + DC Python meetups
 ## April 19th, 2023
 
-This repo will contain the Jupyter notebook and files for my talk about `argparse`
+This repo will contain the Jupyter notebook and files for my talk about `argparse`.
 
-Enjoy!
+Join the meetup at either:
+- https://www.meetup.com/austinpython/events/290847709/
+- https://www.meetup.com/dcpython/events/290847716/
+
+I hope to see you there!
 
 If you liked this talk, you might also like:
 
