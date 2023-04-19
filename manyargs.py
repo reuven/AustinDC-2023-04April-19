@@ -4,7 +4,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('n', help='number of lines to read', required=True)
+parser.add_argument('n', help='number of lines to read')
 parser.add_argument('-f', help='name of the file', required=True)  
 
 # gather arguments
