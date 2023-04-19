@@ -13,6 +13,7 @@ parser.add_argument('y')
 args = parser.parse_args()
 
 # retrieve values
+print(args)
 print(args.x)              # ... can be retrieved as an attribute from our parsed args
 print(args.y)
 
