@@ -6,8 +6,8 @@ import argparse
 parser = argparse.ArgumentParser()
 
 # declare arguments
-parser.add_argument('x')  
-parser.add_argument('y')
+parser.add_argument('x', type=int)  
+parser.add_argument('y', type=int)
 
 # gather arguments
 args = parser.parse_args()
