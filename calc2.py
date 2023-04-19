@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser()
 
 # declare arguments
 # having a - before the name of the argument makes it a keyword argument
-parser.add_argument('-x', help='first numeric argument', type=int)  
+parser.add_argument('-x', help='first numeric argument', type=int, required=True)  
 parser.add_argument('-y', help='second numeric argument', type=int, default=10)
 
 # gather arguments
