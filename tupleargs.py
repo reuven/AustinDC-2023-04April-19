@@ -5,6 +5,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument('t', help='tuple of stuff', type=tuple)
+parser.add_argument('n', help='more than one!', type=int, nargs='+')
 
 # gather arguments
 args = parser.parse_args()
