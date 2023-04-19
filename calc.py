@@ -13,4 +13,4 @@ parser.add_argument('y')
 args = parser.parse_args()
 
 # retrieve values
-print(f'{args.x} + {args.y} = {int(args.x) + int(args.y)}')
+print(f'{args.x} + {args.y} = {args.x + args.y}')
