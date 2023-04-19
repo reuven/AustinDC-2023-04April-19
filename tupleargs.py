@@ -4,12 +4,13 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-class LoudTuple:
+class LoudThing:
     def __init__(self, x):
         print(f'I got {x}!')
         self.x = tuple(x)
 
 parser.add_argument('t', help='tuple of stuff', type=tuple)
+parser.add_argument('a', help='loud tuple of stuff', type=LoudThing)
 parser.add_argument('n', help='more than one!', type=int, nargs='+')
 
 # gather arguments
